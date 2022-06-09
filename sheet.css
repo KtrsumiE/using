@@ -1,0 +1,38 @@
+/*markdown here 的全局配置*/
+.markdown-here-wrapper {
+    font-size: 16px;
+    line-height: 1.8em;
+    /*http://www.w3school.com.cn/cssref/css_units.asp*/
+    letter-spacing: 0.1em;
+}
+
+/*同时设置六级标题的属性，important用于指定优先级*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 20px 0 10px 0;
+    padding: 0;
+    font-style: bold !important;
+    color: #bbdd22 !important;
+    text-align: left !important;
+    margin: 1.5em 5px !important;
+    padding: 0.5em 1em !important;
+}
+
+h1 {
+    font-size: 24px !important;
+    border-bottom: 1px solid #ddd !important;
+}
+
+h2 {
+    font-size: 20px !important;
+    border-bottom: 1px solid #B3B3B3 !important;
+}
+
+h3 {
+    font-size: 18px;
+    color: grey !important;
+}
